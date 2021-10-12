@@ -3,13 +3,18 @@
 Flask (Backend)
 --------------------
 Need Powershell Must:
-
+$ pip install flask-restful
 $ python -m venv myproject
 
 bug free step:
 $ Scripts\activate
+$ git clone https://github.com/flask-restful/flask-restful.git
 $ cd flask-restful
+$ python setup.py develop
 $ python api.py
+$ pip install flask-restful
+
+https://flask-restful.readthedocs.io/en/latest/
 
 Vue.Js Installation:(Frontend)
 ---------------------------------
