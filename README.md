@@ -1,20 +1,13 @@
 # village-market
 
-Flask (Backend)
+Django (Backend)
 --------------------
-Need Powershell Must:
-$ pip install flask-restful
-$ python -m venv myproject
+$ pip install djangorestframework
+$ pip install markdown       
+$ pip install django-filter
 
-bug free step:
-$ Scripts\activate
-$ git clone https://github.com/flask-restful/flask-restful.git
-$ cd flask-restful
-$ python setup.py develop
-$ python api.py
-$ pip install flask-restful
-
-https://flask-restful.readthedocs.io/en/latest/
+$ python -m venv env
+$ env\Scripts\activate
 
 Vue.Js Installation:(Frontend)
 ---------------------------------
@@ -36,3 +29,7 @@ $ npm init vite@latest <project-name> -- --template vue
 $ cd <project-name>
 $ npm install
 $ npm run dev
+
+Resources:
+https://www.telerik.com/blogs/10-good-practices-building-maintaining-large-vuejs-projects
+https://dev.to/champi/front-end-best-practices-featuring-vuejs-1b5p
