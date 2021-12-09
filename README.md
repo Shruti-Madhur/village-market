@@ -9,6 +9,12 @@ $ pip install django-filter
 $ python -m venv env
 $ env\Scripts\activate
 
+$ pip3 freeze > requirements.txt  # Python3
+$ pip freeze > requirements.txt  # Python2
+
+$ COPY requirements.txt /app/requirements.txt  
+$ RUN pip install -r /app/requirements.txt
+
 Vue.Js Installation:(Frontend)
 ---------------------------------
 # latest stable
